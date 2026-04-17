@@ -7,6 +7,6 @@ app.get("/",async(req,res)=>{
     })
 })
 
-app.listen(80,"0.0.0.0",()=>{
-    console.log("server connected")
+app.listen(3000,"0.0.0.0",()=>{
+    console.log("server connected",3000)
 })
